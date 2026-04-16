@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "pickupanimations",
+  "version": "${version}",
+  "name": "Pickup Animations",
+  "description": "",
+  "authors": [
+    ""
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/pickupanimations/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "one.dqu.pickupanimations.fabric.MainFabric"
+    ],
+    "client": [
+      "one.dqu.pickupanimations.fabric.client.MainFabricClient"
+    ]
+  },
+  "mixins": [
+    "pickupanimations.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
