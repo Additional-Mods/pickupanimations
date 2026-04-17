@@ -12,3 +12,4 @@ rootProject.name = 'pickupanimations'
 include 'common'
 include 'fabric'
 include 'neoforge'
+
