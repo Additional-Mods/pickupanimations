@@ -3,9 +3,9 @@
   "id": "pickupanimations",
   "version": "${version}",
   "name": "Pickup Animations",
-  "description": "",
+  "description": "Adds a subtle, satisfying animation when picking up items in your inventory.",
   "authors": [
-    "Adds a subtle, satisfying animation when picking up items in your inventory."
+    "Dqu1J"
   ],
   "contact": {
     "homepage": "https://discord.com/invite/g5a7ZA62t3",
@@ -14,7 +14,7 @@
   },
   "license": "LGPL-3.0",
   "icon": "assets/pickupanimations/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "one.dqu.pickupanimations.fabric.MainFabric"
@@ -30,8 +30,5 @@
     "fabricloader": ">=0.18.0",
     "minecraft": "~1.21.11",
     "java": ">=21"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
