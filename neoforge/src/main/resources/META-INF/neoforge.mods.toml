@@ -1,17 +1,17 @@
 modLoader = "javafml"
 loaderVersion = "[2,)"
-#issueTrackerURL = ""
+issueTrackerURL = "https://github.com/Additional-Mods/pickupanimations/issues"
 license = "GNU LGPL 3.0"
 
 [[mods]]
 modId = "pickupanimations"
 version = "${version}"
 displayName = "Pickup Animations"
-authors = ""
+authors = "Dqu1J"
 description = '''
-
+Adds a subtle, satisfying animation when picking up items in your inventory.
 '''
-#logoFile = ""
+logoFile = "assets/pickupanimations/icon.png"
 
 [[dependencies.pickupanimations]]
 modId = "neoforge"
