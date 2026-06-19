@@ -21,7 +21,7 @@ public class AbstractContainerMenuMixin {
     private void setCarried(ItemStack itemStack, CallbackInfo ci) {
         if (quickcraftStatus != 0) return;
 
-        if (!(Minecraft.getInstance().screen instanceof AbstractContainerScreen<?> screen)) return;
+        if (!(Minecraft.getInstance().gui.screen() instanceof AbstractContainerScreen<?> screen)) return;
         AbstractContainerScreenAccessor acc = (AbstractContainerScreenAccessor) screen;
         Slot slot = acc.clickedSlot();
         if (slot == null) return;
